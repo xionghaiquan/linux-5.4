@@ -16,6 +16,7 @@
 *.s
 *.ko
 *.so
+*.mod
 *.so.dbg
 *.mod.c
 *.i
@@ -112,6 +113,30 @@ all.config
 
 # Kdevelop4
 *.kdev4
-
+scripts/kconfig/lexer.lex.c
+scripts/kconfig/parser.tab.c
+scripts/kconfig/parser.tab.h
+#
 kernel/x509_certificate_list
 Documentation/networking/ifenslave
+crypto/asymmetric_keys/mscode.asn1.c
+crypto/asymmetric_keys/mscode.asn1.h
+crypto/asymmetric_keys/pkcs7.asn1.c
+crypto/asymmetric_keys/pkcs7.asn1.h
+crypto/asymmetric_keys/pkcs8.asn1.c
+crypto/asymmetric_keys/pkcs8.asn1.h
+crypto/asymmetric_keys/tpm.asn1.c
+crypto/asymmetric_keys/tpm.asn1.h
+crypto/asymmetric_keys/x509.asn1.c
+crypto/asymmetric_keys/x509.asn1.h
+crypto/asymmetric_keys/x509_akid.asn1.c
+crypto/asymmetric_keys/x509_akid.asn1.h
+crypto/rsaprivkey.asn1.c
+crypto/rsaprivkey.asn1.h
+crypto/rsapubkey.asn1.c
+crypto/rsapubkey.asn1.h
+debug-config
+modules.builtin.modinfo
+net/ipv4/netfilter/nf_nat_snmp_basic.asn1.c
+net/ipv4/netfilter/nf_nat_snmp_basic.asn1.h
+
